@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+/*parent for absolutely positioned footer*/
+
+.main_wrapper {
+	min-height: 100%;
+	position: relative;
+	
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*stiles for title*/
+
+.d,
+.g {
+	color: blue;
+}
+
+.o,
+.e {
+	color: red;
+}
+
+.u {
+	color: yellow;
+}
+
+.l {
+	color: green;
+}
+
+/*styles for header*/
+
+.search {
+	background: lightgrey;
+	border-bottom: 1px solid grey;
+	padding: 5px 20px;
+}
+
+.search span {
+    font-size: 36px;
+}
+
+/*styles for the search form*/
+
+.form_search {
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.form_search input {
+	width: 600px;
+	height: 40px;
+	border: 1px solid lightgray;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.form_search input:hover {
+	border: 1px solid black;
+}
+
+.form_button_search {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	padding: 12px 20px 13px 20px;
+	border: none;
+    background: white;
+}
+
+.form_button_search:active,
+.form_button_search:focus {
+	outline: none;
+}
+
+.form_button_search:hover {
+	cursor: pointer;
+}
+
+/*the margin for the footer*/
+
+.result_wrapper {
+	padding-bottom: 100px;
+}
+
+/*the margins for the images*/
+
+p {
+	margin: 10px 0px 10px 100px;
+}
+
+/*footer located at the bottom of the page*/
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+	margin-top: -100px;
+	background: lightgrey;
+}
+
+/*styles for bottom title*/
+
+.doodle {
+	border-top: 1px solid black;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.doodle span {
+	font-size: 30px;
+}

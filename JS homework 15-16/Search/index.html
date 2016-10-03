@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+	<title>JS Hmework 15-16</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main_wrapper clearfix">
+    
+        <header>
+            
+            <div class="search">
+
+            <!--title in the top of page-->
+                
+                <span class="d">D</span><span class="o">o</span><span class="u">o</span><span class="g">d</span><span class="l">l</span><span class="e">e</span>
+
+                <form action="#" class="form_search clearfix">
+
+                <!--form to input query-->
+            
+                    <input type="text" name="search" placeholder="Введите поисковый запрос или URL" class="form_search_input">
+
+                <!--button to send query-->
+
+                    <button class="form_button_search">Search</button>
+
+                </form>
+
+            </div>
+
+        </header>
+
+        <main>
+            
+            <div class="result_wrapper">
+
+            <!--the template for displaying search results-->
+                
+                <script type="text/template" id="images">
+                    
+                    <% for (var i = 0; i < hits.length; i++) { %>
+
+                        <p><img src="<%- hits[i].previewURL %>"></p>
+
+                    <% } %>
+
+                </script>
+
+            <!--end of template-->
+
+            </div>
+
+        </main>
+
+        <footer>
+
+        <!--title in the bottom-->
+            
+            <div class="doodle">
+                
+                <span class="d">D</span>
+                <span class="o">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="u">o</span>
+                <span class="g">d</span>
+                <span class="l">l</span>
+                <span class="e">e</span>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
